@@ -8,6 +8,7 @@ In the course of this project, I orchestrated the configuration of Azure Sentine
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
+- <b>ipgeolocation.io: IP Address to Geolocation API </b> 
 
 <h2>Environments Used </h2>
 
@@ -26,7 +27,7 @@ Select Create Virtual Machine  :  <br/>
 <img src="https://i.imgur.com/jcFmrHg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create New resource Group: <br/>
+Create New resource Group (A resource group functions as a logical container in Azure, unifying resources that typically have a shared lifespan. For this project, the intent is to organize all components within the same resource group, facilitating streamlined management and ensuring cohesive coordination of related resources. This approach simplifies administration and enhances the overall efficiency of resource allocation and monitoring within the Azure environment.): <br/>
 <img src="https://i.imgur.com/Gs860Aa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -38,50 +39,214 @@ Select region :  <br/>
 <img src="https://i.imgur.com/mRqRmyi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select Image as " Windos 10 PRO" :  <br/>
+<img src="https://i.imgur.com/MjOhvaF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Make sure size is Standard_B1s:  <br/>
+<img src="https://i.imgur.com/FJzKpPn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+All Fields should like the following:  <br/>
+<img src="https://i.imgur.com/6CMYxkl.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click next twice for Network interface :  <br/>
+<img src="https://i.imgur.com/XsdJpzt.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select "Advanced" for Nic Network Security Group:  <br/>
+<img src="https://i.imgur.com/2cmWxSd.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create a new network Security Group:  <br/>
+<img src="https://i.imgur.com/ycg1IzX.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Remove default Inbound Rules using the trash can on the right of the screen :  <br/>
+<img src="https://i.imgur.com/pnzTPF3.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click +Add an new inbound rule:  <br/>
+<img src="https://i.imgur.com/GWronYE.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Change Destination Port from 8080 to a star * for anything:  <br/>
+<img src="https://i.imgur.com/xpilqiU.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Change Priority from 1010 to 100:  <br/>
+<img src="https://i.imgur.com/kiJWjGn.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Here Name choice can be anything so I chose DANGER_ALERT:  <br/>
+<img src="https://i.imgur.com/LIUo0lN.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click ok :  <br/>
+<img src="https://i.imgur.com/2xFPr2l.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next click Review + create :  <br/>
+<img src="https://i.imgur.com/3U8ymGU.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 
