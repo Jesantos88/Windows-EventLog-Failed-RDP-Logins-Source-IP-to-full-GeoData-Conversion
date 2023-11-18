@@ -91,20 +91,22 @@ Next click Review + create :  <br/>
 <img src="https://i.imgur.com/3U8ymGU.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next Click Create :  <br/>
+<img src="https://i.imgur.com/nJ7v64j.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+And Done! Keep in mind that he objective is to intentionally enhance the discoverability of the virtual machine by allowing various means of probing, including TCP pings, SYN scans, and ICMP pings. The intention is to refrain from dropping any traffic, making the virtual machine easily detectable. While this approach is unconventional in typical security practices, it is pursued for specific lab requirements, aiming to simulate scenarios where the system is intentionally exposed and open to discovery and subsequent simulated attacks for educational or testing purposes. 
+ (Fyi: Azure will alert once the process is done):<br/>
+<img src="https://i.imgur.com/N2Vbnjn.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Head to Log Analytics Workspace by typing it in the search bar:  <br/>
+<img src="https://i.imgur.com/SeKycXx.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Log Analytics Workspace. 
+The primary objective here is to assimilate logs from the virtual machine. This entails the ingestion of Windows event logs, and additionally, we will generate a bespoke log incorporating geographic information. This strategic approach enables us to discern the origins of potential attackers and enhance our understanding of their geographical locations.:  <br/>
+<img src="https://i.imgur.com/c6GfRev.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>
