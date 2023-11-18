@@ -122,10 +122,10 @@ Click Review + create :  <br/>
 <br />
 <br />
 Then click create :  <br/>
-<img src=" https://i.imgur.com/RseDIng.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=" https://i.imgur.com/RseDIng.png " height="80%" width="80%">
 <br />
 <br />
-Next, Search for Microsoft Defender for Cloud :  <br/>
+Next, Search for Microsoft Defender for Cloud : <br/>
 <img src="https://i.imgur.com/N1wJdMp.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -149,20 +149,20 @@ Let's go back to our L.A.W :  <br/>
 <img src="https://i.imgur.com/wiW7ky0.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Here we're going to connect our L.A.W to the virtual machine. On the left under "classic" you will see "Virtual Machines" :  <br/>
+Here we're going to connect our L.A.W to the virtual machine. On the left under "classic" you will see "Virtual Machines":  <br/>
 <img src="https://i.imgur.com/0Uosmp2.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open your HoneyNet-vm :  <br/>
+<img src="https://i.imgur.com/fWqDyNL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Connect VM :  <br/>
+<img src="https://i.imgur.com/AzsV51F.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Let's Move to Azure Sentinel by using our search bar, It will be listed below "Marketplace":  <br/>
+<img src="https://i.imgur.com/WyrCPpu.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>
