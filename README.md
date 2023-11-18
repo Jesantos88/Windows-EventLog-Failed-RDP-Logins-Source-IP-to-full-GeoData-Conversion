@@ -1,4 +1,4 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Windows-EventLog-Failed-RDP-Logins-Source-IP-to-full-GeoData-Conversion</h1>
 
 <h2>Description</h2>
 In the course of this project, I orchestrated the configuration of Azure Sentinel (SIEM) and established its connection to a live virtual machine, functioning as a honeynet. Within this framework, I demonstrated the step-by-step process of setting up and monitoring real-time attacks, particularly focusing on RDP Brute Force attempts originating from various global locations. Additionally, as part of the project, I employed a customized PowerShell script to extract and cross-reference geolocation information of attackers, dynamically visualizing their locations on the Azure Sentinel Map. This initiative not only showcased the capabilities of Azure Sentinel but also highlighted the real-world applicability of leveraging geospatial insights for enhanced cybersecurity monitoring.
