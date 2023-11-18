@@ -109,48 +109,48 @@ The primary objective here is to assimilate logs from the virtual machine. This 
 <img src="https://i.imgur.com/c6GfRev.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Establishing a Log Analytics Workspace, which will serve as the repository for the logs. This specialized workspace becomes the central hub where all collected logs, including the custom log with geographic information, will be stored. Subsequently, our Azure Sentinel (SIEM) system will establish a connection to this workspace. This integration enables the seamless display of geospatial data on the map, enhancing our cybersecurity visualization capabilities. Let start by selecting the resource group we created earlier (HoneyNet):  <br/>
+<img src="https://i.imgur.com/VYsAP4u.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next, Type in a name for your Instance Details. I chose "Log-Analytics-Workspace-HoneyNet:  <br/>
+<img src="https://i.imgur.com/pujBvWx.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click Review + create :  <br/>
+<img src="https://i.imgur.com/AkK002S.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Then click create :  <br/>
+<img src=" https://i.imgur.com/RseDIng.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next, Search for Microsoft Defender for Cloud :  <br/>
+<img src="https://i.imgur.com/N1wJdMp.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In this step, we activate the capability to collect logs from the virtual machine and channel them into the Log Analytics Workspace. Scoll down and at the bottom left below "Management" click on "Enviorment Settings" :  <br/>
+<img src="https://i.imgur.com/iAZrmb9.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click on your previously created L.A.W:  <br/>
+<img src="https://i.imgur.com/1pYriNi.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turn on CSPM and Servers, leave SQL OFF:  <br/>
+<img src="https://i.imgur.com/KolEvUv.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next go to Data Collection and click on "ALL EVENTS" then click "Save". :  <br/>
+<img src="https://i.imgur.com/2OPUdT0.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Let's go back to our L.A.W :  <br/>
+<img src="https://i.imgur.com/wiW7ky0.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here we're going to connect our L.A.W to the virtual machine. On the left under "classic" you will see "Virtual Machines" :  <br/>
+<img src="https://i.imgur.com/0Uosmp2.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>
