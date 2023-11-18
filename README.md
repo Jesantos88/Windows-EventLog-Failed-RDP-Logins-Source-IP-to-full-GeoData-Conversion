@@ -13,15 +13,17 @@ In the course of this project, I orchestrated the configuration of Azure Sentine
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2> Project walk-through:</h2>
+
+The primary objective is to assimilate logs from the virtual machine. This entails the ingestion of Windows event logs, and additionally, we will generate a bespoke log incorporating geographic information. This strategic approach enables us to discern the origins of potential attackers and enhance our understanding of their geographical locations.
 
 <p align="center">
 First Login to Mirco Soft Azure: <br/>
-<img src="https://imgur.com/a/exOtjBu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/84FsJw6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select Create :  <br/>
+<img src="https://i.imgur.com/jcFmrHg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
