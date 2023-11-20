@@ -245,32 +245,32 @@ Once you have your api keys copied on a note pad head over to the vm and pull up
 <img src="https://i.imgur.com/Yb8rdje.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Should look like this:  <br/>
+<img src="https://i.imgur.com/aqv67HK.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click Windows Defender :  <br/>
+<img src="https://i.imgur.com/eM0xjWy.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turn off Domain Profile:  <br/>
+<img src="https://i.imgur.com/kBrbk2n.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turn off Private Profile:  <br/>
+<img src="https://i.imgur.com/NxN1u2K.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turn off Public Profile:  <br/>
+<img src="https://i.imgur.com/ORHkQu2.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Let test out our Connection to the vm. On your actual pc pull up command prompt and type in  "ping [your vm IP] -t " if every done right you command line will look like this:  <br/>
+<img src="https://i.imgur.com/gGc1SHG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets head back to back our vm pull up Powershell ISE:  <br/>
+<img src="https://i.imgur.com/gt7F5pn.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>
