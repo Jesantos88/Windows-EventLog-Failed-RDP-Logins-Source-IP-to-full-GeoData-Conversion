@@ -277,7 +277,7 @@ Copy the Custom_Security_Log_Exporter.ps1 that listed with this project and past
 <img src="https://i.imgur.com/mxUMu1x.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Save this script on your desktop:  <br/>
+Save this script on your VM desktop:  <br/>
 <img src="https://i.imgur.com/fzPgKxe.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -306,35 +306,35 @@ When you go back to the program data folder you'll see that the incoming logs ar
 <br />
 <br />
 Open failed_rdp file and copy these first few lines on a note pad:  <br/>
-<img src=" https://i.imgur.com/Ko0yFTM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ko0yFTM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-save as Failed_rdp:  <br/>
+Save as Failed_rdp_1:  <br/>
 <img src="https://i.imgur.com/iuyQgKV.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Lets go back to our portal and head over to our L.A.W and create a custom log. On the left :  <br/>
+Lets go back to our portal and head over to our L.A.W and create a custom log. On the left click tables :  <br/>
+<img src="https://i.imgur.com/mjg3fgt.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create / New custome log (MMA_ BASED):  <br/>
+<img src="https://i.imgur.com/wSSDOIp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click on the blue folder and select the file that we saved earlier as " Failed_rdp_1". :  <br/>
 <img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go back to you VM and copy the path where the "Program data" is collected:  <br/>
+<img src="https://i.imgur.com/U8B8WV0.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Copy path:  <br/>
+<img src="https://i.imgur.com/TA8GEQd.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go back to azure and paste the path on your next step :  <br/>
+<img src=" https://i.imgur.com/uXbH2f9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>
