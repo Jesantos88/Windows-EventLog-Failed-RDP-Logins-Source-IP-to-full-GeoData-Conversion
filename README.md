@@ -322,7 +322,7 @@ Create / New custome log (MMA_ BASED):  <br/>
 <br />
 <br />
 Click on the blue folder and select the file that we saved earlier as " Failed_rdp_1". :  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yHqNL47.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Go back to you VM and copy the path where the "Program data" is collected:  <br/>
@@ -333,20 +333,20 @@ Copy path:  <br/>
 <img src="https://i.imgur.com/TA8GEQd.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Go back to azure and paste the path on your next step :  <br/>
-<img src=" https://i.imgur.com/uXbH2f9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go back to azure and under type select  :  <br/>
+<img src="https://i.imgur.com/kN4i9sJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Then paste path:  <br/>
+<img src="https://i.imgur.com/uXbH2f9.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Give your custom log aname:  <br/>
+<img src="https://i.imgur.com/WRgui0B.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once that is created it will take a while for L.A.W and the VM to sync. Once it does sync you will be able to see the logs at the bottom when you type the name of your custom log and click run.  :  <br/>
+<img src="https://i.imgur.com/BAG3OqD.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>
