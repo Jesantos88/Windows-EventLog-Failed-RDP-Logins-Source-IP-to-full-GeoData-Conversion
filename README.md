@@ -269,51 +269,51 @@ Let test out our Connection to the vm. On your actual pc pull up command prompt 
 <img src="https://i.imgur.com/gGc1SHG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Lets head back to back our vm pull up Powershell ISE:  <br/>
+Lets head back to our vm pull up Powershell ISE:  <br/>
 <img src="https://i.imgur.com/gt7F5pn.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Copy the Custom_Security_Log_Exporter.ps1 that listed with this project and paste it here (Make sure you fill in your API KEYS before next step! ). :  <br/>
+<img src="https://i.imgur.com/mxUMu1x.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Save this script on your desktop:  <br/>
+<img src="https://i.imgur.com/fzPgKxe.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Copy the 5th line on the script. This where the Log files will output to this folder.  :  <br/>
+<img src="https://i.imgur.com/ufO5zgX.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Pull up Run on your VM. :  <br/>
+<img src="https://i.imgur.com/s8ec1fF.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Paste the folder location here and click ok :  <br/>
+<img src="https://i.imgur.com/Swnif0J.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go back to powershell and run script :  <br/>
+<img src="https://i.imgur.com/76OU7Mw.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once you run the script your powershell should look like this with the incoming logs listed on the bottom:  <br/>
+<img src="https://i.imgur.com/7VkqERO.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+When you go back to the program data folder you'll see that the incoming logs are store here under " failed_rdp":  <br/>
+<img src="https://i.imgur.com/xuOX0Bb.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open failed_rdp file and copy these first few lines on a note pad:  <br/>
+<img src=" https://i.imgur.com/Ko0yFTM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+save as Failed_rdp:  <br/>
+<img src="https://i.imgur.com/iuyQgKV.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
+Lets go back to our portal and head over to our L.A.W and create a custom log. On the left :  <br/>
 <img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
