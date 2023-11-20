@@ -414,7 +414,7 @@ WE ARE DONE! Now we can see on a live map were the attacks are coming from.:  <b
 <br />
 <br />
 Results after 2hrs:  <br/>
-<img src=" https://i.imgur.com/0J6aeTd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0J6aeTd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
