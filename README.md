@@ -341,7 +341,7 @@ Then paste path:  <br/>
 <img src="https://i.imgur.com/uXbH2f9.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Give your custom log aname:  <br/>
+Give your custom log a name:  <br/>
 <img src="https://i.imgur.com/WRgui0B.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -349,188 +349,74 @@ Once that is created it will take a while for L.A.W and the VM to sync. Once it 
 <img src="https://i.imgur.com/BAG3OqD.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Copy the Data extraction script that is post on this project and paste it here and click run:  <br/>
+<img src="https://i.imgur.com/B3spPLC.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+You will notice that now our columns labeled with with state, country, time, sourcehost, etc.:  <br/>
+<img src="https://i.imgur.com/RL001Jp.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets head over to Microsoft Sentinel:  <br/>
+<img src="https://i.imgur.com/eor2EGL.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add Workbook:  <br/>
+<img src="https://i.imgur.com/DMXAlMB.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets edit our analytics:  <br/>
+<img src="https://i.imgur.com/SjVOTFv.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click the three dots and remove top and bottom:  <br/>
+<img src=" https://i.imgur.com/IHqVo32.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select add:  <br/>
+<img src="https://i.imgur.com/1wMERax.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select add query:  <br/>
+<img src="https://i.imgur.com/tP8l7GR.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+open a new tab in azure and go back to you custom log and copy the script:  <br/>
+<img src=" https://i.imgur.com/n139b34.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run query and select map under visualization:  <br/>
+<img src="https://i.imgur.com/6DEOX7n.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Change the size of your map to full:  <br/>
+<img src="https://i.imgur.com/c7gdS3g.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Save :  <br/>
+<img src="https://i.imgur.com/U1vlfmk.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select you resource group:  <br/>
+<img src="https://i.imgur.com/Z62bA6F.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Make sure your location is set to (US) West US 3:  <br/>
+<img src="https://i.imgur.com/ZQoq5aX.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Apply :  <br/>
+<img src="https://i.imgur.com/XLKMnug.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+WE ARE DONE! Now we can see on a live map were the attacks are coming from.:  <br/>
+<img src="https://i.imgur.com/qasRUb7.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Results after 2hrs:  <br/>
+<img src=" https://i.imgur.com/0J6aeTd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-:  <br/>
-<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </p>
 
 <!--
