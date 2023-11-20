@@ -113,7 +113,7 @@ Establishing a Log Analytics Workspace, which will serve as the repository for t
 <img src="https://i.imgur.com/VYsAP4u.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Next, Type in a name for your Instance Details. I chose "Log-Analytics-Workspace-HoneyNet:  <br/>
+Next, Type in a name for your Instance Details. I chose "Log-Analytics-Workspace-HoneyNet":  <br/>
 <img src="https://i.imgur.com/pujBvWx.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -165,6 +165,166 @@ Let's Move to Azure Sentinel by using our search bar, It will be listed below "M
 <img src="https://i.imgur.com/WyrCPpu.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Connect Workspace :  <br/>
+<img src="https://i.imgur.com/Ae41BuO.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Clink on  "Log-Analytics-Workspace-HoneyNet" and add.:  <br/>
+<img src="https://i.imgur.com/ks2mPCM.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Let Connect to our VM! In your portal go back to your vm and copy the vm IP  :  <br/>
+<img src="https://i.imgur.com/q4g8EQt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Here we connect our actual pc to the vm. On your windows pull up Remote Desktop Connection.:  <br/>
+<img src="https://i.imgur.com/7KPYiQX.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Paste address and coonect:  <br/>
+<img src="https://i.imgur.com/ky5HZS3.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter your credentials:  <br/>
+<img src="https://i.imgur.com/yL58G1v.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click yes:  <br/>
+<img src="https://i.imgur.com/kKZGsJz.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click no on everything:  <br/>
+<img src="https://i.imgur.com/JD1EfUC.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click Yes:  <br/>
+<img src="https://i.imgur.com/sxHEEsg.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once in you VM open Even viewer:  <br/>
+<img src="https://i.imgur.com/Y7QLTsk.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click on security:  <br/>
+<img src="https://i.imgur.com/6AykbsB.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Here is where all your logs are kept:  <br/>
+<img src="https://i.imgur.com/sHBqROu.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Just to test it out lets log off and try to log with the wrong password and see what we get:  <br/>
+<img src="https://i.imgur.com/5Q626Pb.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wrong password:  <br/>
+<img src="https://i.imgur.com/HDjZMZb.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Failed log in:  <br/>
+<img src="https://i.imgur.com/FQSR6FC.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Lets log in and check our logs for a failed log in:  <br/>
+<img src="https://i.imgur.com/OzP9012.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Our logs will show a failed log and the failure reason :  <br/>
+<img src="https://i.imgur.com/3QWkgMc.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+It will also the IP address of the source (in this case since it was me it shows my IP):  <br/>
+<img src="https://i.imgur.com/6vHoF5e.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Lets head over to our free IP Geolocation and get our free API :  <br/>
+<img src="https://i.imgur.com/qlRBglV.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once you have your api keys copied on a note pad head over to the vm and pull up " wf.msc" to turn off of our firewall:  <br/>
+<img src="https://i.imgur.com/Yb8rdje.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 :  <br/>
 <img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -249,36 +409,54 @@ Let's Move to Azure Sentinel by using our search bar, It will be listed below "M
 <img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+:  <br/>
+<img src=" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 
